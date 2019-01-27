@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pic2x',
-    version='0.1',
+    version='0.13',
     description=(
         'Transform your picture to anything.'
     ),
@@ -32,8 +32,5 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries'
-    ],
-    install_requires=[
-        'PIL'
     ]
 )
