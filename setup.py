@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pic2x',
-    version='0.13',
+    version='0.14',
     description=(
         'Transform your picture to anything.'
     ),
@@ -17,7 +17,7 @@ setup(
     license='BSD License',
     packages=find_packages(),
     platforms=["all"],
-    url='https://github.com/ZillyRex/Pic2X',
+    url='https://github.com/ZillyRex/pic2x',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Operating System :: OS Independent',
@@ -25,11 +25,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries'
     ]
