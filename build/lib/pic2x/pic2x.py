@@ -3,7 +3,9 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 
-def pic2sym(src, dest=None, style=0):
+class pic2x():
+
+    def pic2sym(self, src, dest=None, style=0):
         if(style != 0 and style != 1):
             print('Wrong style!')
             return -1

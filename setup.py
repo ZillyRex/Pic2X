@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pic2x',
-    version='0.14',
+    version='0.17',
     description=(
         'Transform your picture to anything.'
     ),
